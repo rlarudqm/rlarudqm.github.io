@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학습일지 0914</title>
+</head>
+<body style="width:800px;margin: 0 auto 0 auto;">
+    <h1>파이썬의 리스트</h1>
+    <div>
+        <ol>
+            <li>
+                <h2>list 사용하기</h2>
+                 <div>
+                     <pre style="background-color: #f9f9f9;
+                     padding: 1em;border:1px solid #777">
+#리스트
+friends = ["래현", "민호", "헌서"]
+
+# append로 새로운 친구 '재청'를 추가해요.
+friends.append("재청")
+
+print("우리반 친구는 총", len(friends), "명 입니다.") # len으로 총 몇 명인지 확인
+
+# for문으로 친구들 이름을 한 명씩 불러줘요.
+#오른쪽 집합중 순차적으로 하나씩 가져오는 기능을 수행 iteator
+for friend in friends:
+    print(friend, "안녕!")
+                    </pre>
+                </div>
+            </li>
+                        <li>
+                <h2>list 활용하기</h2>
+                 <div>
+                     <pre style="background-color: #f9f9f9;
+                     padding: lem;border:1px solid #777">
+friends = ["래현","민호", "헌서"]
+friends.insert(0,"재청")
+print(friends)
+name=friends.pop() #제일 마지막 요소를 뽑아냄
+print("나간사람:", name)
+print(friends)
+friends.remove("래현") #지정된 요소를 제거할수 있다
+print(friends)                        
+                    </pre>
+                </div>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
